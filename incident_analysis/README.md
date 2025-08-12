@@ -1,8 +1,8 @@
-## Day 1 – School Incident Analysis
+## School Incident Analysis
 
 🔗 [My Google Sheet](https://docs.google.com/spreadsheets/d/1_U1wvuh1raCYK0NEmsv2dJYkyP4zGFatunFniLH0_58/edit?usp=sharing)
 
-### Answers:
+### Preliminary analysis:
 - Total rows: 6310
 - Unique schools: 1890
 - Most frequent incident type: “nocrim_n”
