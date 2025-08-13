@@ -1,37 +1,67 @@
-# 📘 About the School Safety Report Data Dictionary
+# 🏫 NYC School Safety Report – Data Overview & Analysis
 
-The file `School_Safety_Report_Data_Dictionary.xlsx` provides essential reference information for working with the **NYC School Safety Report** dataset.
-
-Inside this data dictionary, you'll find:
-
-### 🗂 Dataset Info
-General metadata about the dataset, including its purpose, source, and update frequency.
-
-### 📑 Column Info
-A structured breakdown of each column in the dataset:
-- Column names
-- Descriptions and definitions
-- Any important nuances or data type hints
-
-### 🕘 Revision History
-Details about changes made to the dataset structure or naming over time (if applicable).
+This folder contains the **NYC School Safety Report dataset** along with its corresponding **Data Dictionary**. This dataset was used to explore patterns in school safety incidents and to practice **data cleaning, exploration, and database integration**.
 
 ---
 
-📌 Use this file as a reference when exploring, cleaning, or uploading the dataset into a database.  
-It ensures you understand each field and how it contributes to the larger data structure.
+## 📘 About the Data Dictionary
 
-### 📂 About the `school-safety-repor.csv` file
+The file `School_Safety_Report_Data_Dictionary.xlsx` provides essential reference information for working with the dataset. It includes:
 
-The file `school-safety-report.csv` contains detailed safety report data for various schools across different school years. This dataset can be used to analyze safety trends, compare incident rates between schools, and investigate the geographic distribution of incidents.
+### 🗂 Dataset Info
+- Purpose and scope of the dataset
+- Source and update frequency
 
-#### 📊 Key Columns
+### 📑 Column Info
+- Column names and descriptions
+- Data types and nuances to consider during analysis
 
-* **`Location Name` and `DBN`**: Unique identifiers for each school.
-* **`School Year`**: The academic year the data corresponds to.
-* **`Major N`, `Oth N`, `NoCrim N`, `Prop N`, `Vio N`**: The count of different types of incidents reported at the school. These can be used to understand the frequency of specific incident categories.
-* **`AvgOfMajor N`, `AvgOfOth N`, etc.**: Normalized values representing the average number of incidents, which can be useful for comparing schools of different sizes.
-* **`Register`**: The total number of students registered at the school.
-* **`Borough Name`, `Latitude`, `Longitude`**: Geographic information that can be used to map and visualize the data.
+### 🕘 Revision History
+- Notes on changes to the dataset structure or naming conventions over time
 
-This dataset provides a comprehensive look into school safety, allowing for detailed analysis and reporting.
+> This file was used as a guide to understand the meaning of each field and to ensure correct handling of the data during cleaning and upload.
+
+---
+
+## 📂 About the Dataset
+
+The file `school-safety-report.csv` contains detailed safety incident data for NYC schools across multiple school years. It can be used to:
+
+- Analyze safety trends over time
+- Compare incident rates between schools or boroughs
+- Map incidents geographically
+
+### 📊 Key Columns
+
+| Column | Description |
+|--------|-------------|
+| `Location Name`, `DBN` | Unique identifiers for each school |
+| `School Year` | Academic year of the record |
+| `Major N`, `Oth N`, `NoCrim N`, `Prop N`, `Vio N` | Counts of different types of incidents |
+| `AvgOfMajor N`, `AvgOfOth N`, etc. | Normalized averages of incidents for comparison |
+| `Register` | Total number of students registered at the school |
+| `Borough Name`, `Latitude`, `Longitude` | Geographic info for mapping and visualization |
+
+---
+
+## 🧰 What I Did
+
+As part of this portfolio project, I:
+
+1. **Explored the dataset** to understand its structure and contents.
+2. **Cleaned and preprocessed** columns to ensure consistency and usability.
+3. **Mapped key columns** to relational database tables for later integration.
+4. **Prepared analysis-ready versions** of the data for visualizations and reporting.
+5. **Documented the dataset** in a way that other analysts or developers could understand and reuse it.
+
+This work demonstrates my ability to handle **real-world datasets**, understand data dictionaries, and prepare data for **analysis and database integration**.
+
+---
+
+## 📌 Usage
+
+Use this folder as a reference for:
+
+- Understanding the dataset structure
+- Performing exploratory data analysis
+- Integrating the data into a database or dashboard
