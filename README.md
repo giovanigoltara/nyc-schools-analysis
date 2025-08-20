@@ -42,19 +42,16 @@ nyc-schools-analysis/
 │
 ├── school_directory_exploration/   # Cleaning, grouping, and visualization
 │   ├── README.md
-│   ├── visuals/
-│   ├── notebook.ipynb
+│   ├── dataset/                    # Folder containing dataset utilized for analysis
+│   ├── analysis.ipynb              # Notebook with analysis and visualizations
 │
 ├── database_queries/                # SQL via Python queries and insights
 │   ├── README.md
-│   ├── queries.ipynb
+│   ├── sql_analysis.ipynb
 │
 ├── database_population/             # Data integration and upload scripts
 │   ├── README.md
-│   ├── cleaned_data.csv
-│   ├── upload_script.py
+│   ├── sat_cleaned_data.csv
+│   ├── sat_modeling.ipynb
 │
-├── assets/                          # Visuals and screenshots
-├── requirements.txt                 # Python dependencies
-├── environment.yml                  # (Optional) Conda environment
 └── README.md                        # This file
