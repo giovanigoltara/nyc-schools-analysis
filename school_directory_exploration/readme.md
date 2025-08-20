@@ -10,8 +10,8 @@ It is part of a portfolio project demonstrating skills in **Python, Pandas, data
 
 | File / Folder | Description |
 |---------------|-------------|
-| `day2_analysis.ipynb` | Jupyter Notebook with full analysis, visualizations, and commentary |
-| `day_2_datasets/` | Raw dataset used for exploration (`NYC High School Directory`) |
+| `analysis.ipynb` | Jupyter Notebook with full analysis, visualizations, and commentary |
+| `datasets/` | Raw dataset used for exploration (`NYC High School Directory`) |
 | `README.md` | This file, providing context and summary |
 
 ---
